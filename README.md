@@ -15,3 +15,7 @@ NewData_XGBoostv2_pathogen_only.ipynb remove the host columns and then remove th
 Validation_v3_host_only.ipynb remove the pathogen columns and then remove the GO_S column, and uses the training set and the validation set
 
 NewData_XGBoostv2_host_only.ipynb remove the pathogen columns and then remove the GO_S column, and only uses the training set
+
+Mix it up tries to mix the training and validation datasets - good results, but the validation dataset is really small compared to the training dataset
+
+Overfitting tries various parameters to reduce possible overfitting (no good results)
